@@ -1,7 +1,6 @@
 from aiogram.utils import executor
-
-import candy_game_bot.handlers as handlers
-from candy_game_bot.bot import dp
+import handlers as handlers
+from bot import dp
 
 
 async def on_startup(_):

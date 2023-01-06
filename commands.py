@@ -1,7 +1,7 @@
 import random
 from aiogram import types
-import candy_game_bot.view as view, candy_game_bot.model as model
-from candy_game_bot.bot import bot
+import view as view, model as model
+from bot import bot
 
 async def start_game(message: types.Message):
     await model.set_game()

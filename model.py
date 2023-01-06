@@ -2,7 +2,7 @@ import random
 
 game = False
 player_name = ''
-total_count = 150
+total_count = 2021
 
 async def get_game():
     global game
@@ -16,7 +16,7 @@ async def set_game():
         game = True
     else:
         player_name = ''
-        total_count = 150
+        total_count = 2021
         game = False
 
 async def set_player_name(new_name: str):

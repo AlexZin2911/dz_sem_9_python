@@ -1,6 +1,6 @@
 from aiogram import Dispatcher
 
-import candy_game_bot.commands as commands
+import commands as commands
 
 
 def registred_handlers(dp: Dispatcher):
